@@ -1,0 +1,20 @@
+{
+    "contributions": [
+		{
+			"id": "sg-hub-group",
+			"type": "ms.vss-web.hub-group",
+			"description": "SystemGroup Hub Group",
+			"targets": [
+				"ms.vss-web.project-hub-groups-collection"
+			],
+			"properties": {
+				"name": "System Group",
+				"order": 100,
+				"icon": {
+					"light": "asset://static/images/system-group.png",
+					"dark": "asset://static/images/system-group.png"
+				}
+			}
+		}
+	]
+}

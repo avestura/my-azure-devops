@@ -1,0 +1,23 @@
+{
+    "contributions": [
+        {
+            "id": "tools-hub",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                "SystemGroup.sg-azure.sg-hub-group"
+            ],
+            "includes": [
+                "ms.vss-tfs-web.tfs-page-data-service",
+                "ms.vss-features.host-navigation-service",
+                "ms.vss-features.extension-data-service",
+                "ms.vss-features.host-dialog-service"
+            ],
+            "properties": {
+                "name": "Tools Hub",
+                "uri": "dist/Hub/Hub.html",
+                "icon": "asset://static/images/system-group.png",
+                "supportsMobile": true
+            }
+        }
+    ]
+}

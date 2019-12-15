@@ -1,0 +1,41 @@
+{
+	"manifestVersion": 1,
+	"id": "sg-azure",
+	"publisher": "SystemGroup",
+	"version": "1.0.11",
+	"name": "SystemGroup Azure Tools",
+	"description": "SystemGroup Tools for Azure DevOps",
+	"public": false,
+	"icons": {
+		"default": "static/images/system-group.jpg"
+	},
+	"categories": [
+		"Azure Repos",
+		"Azure Boards",
+		"Azure Pipelines",
+		"Azure Test Plans",
+		"Azure Artifacts"
+	],
+	"scopes": [
+		"vso.agentpools", "vso.build", "vso.code", "vso.entitlements", "vso.extension",
+		"vso.graph", "vso.loadtest", "vso.gallery", "vso.notification", "vso.packaging",
+		"vso.project", "vso.release", "vso.serviceendpoint", "vso.symbols",
+		"vso.taskgroups_read", "vso.dashboards", "vso.test", "vso.tokens",
+		"vso.profile", "vso.wiki", "vso.work"
+	],
+	"targets": [
+		{
+			"id": "Microsoft.VisualStudio.Services"
+		}
+	],
+	"files": [
+		{
+			"path": "static",
+			"addressable": true
+		},
+		{
+			"path": "dist",
+			"addressable": true
+		}
+	]
+}
