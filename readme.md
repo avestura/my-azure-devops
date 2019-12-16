@@ -1,3 +1,3 @@
-# SgAzure
+# My Azure
 
-My Azure DevOps extension template for System Group
+My Azure DevOps extension template
